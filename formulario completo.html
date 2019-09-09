@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang+"pt-br">
+
+<head>
+<link rel="stylesheet" type="text/css" href="estiloform.css">
+<style>
+body {
+	background-color: acqua;
+	}
+h1 {
+	color: pink;
+	}
+</style>
+<h1>Questionário</h1>
+
+</head>
+
+<body>
+<form method="post">
+
+<p>Nome:<br>
+<input type="text" name="Name">
+<br>
+
+Senha:<br>
+<input type="password" name="Senha">
+<br>
+<h1>
+Email: <br>
+<input type="email" name="email">
+<br>
+
+Telefone: <br>
+<input type="tel" name="phone" pattern="[0-9]{9}">
+<br>
+</h1>
+<h1 style="color:blue;background:grey;">
+Idade: <br>
+<input type="number" name="quantity" min="1" max="99">
+<br>
+</h1>
+
+Sexo: <br>
+<input type="radio" name="gender" value="male"> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other
+<br>
+<h1 style="color:blue;background:grey;">
+Curso: <br>
+<input type="checkbox" name="curso" value="Sistemas"> 
+</h1>
+Sistemas<br>
+<input type="checkbox" name="curso" value="Engenharia"> 
+
+Engenharia <br>
+<input type="checkbox" name="curso" value="Redes"> 
+Redes<br>
+<br>
+<h1 style="color:blue;background:grey;">
+Você Gosta do seu Curos: <br>
+<input type="range" name="points" min="0" max="100">
+</p>
+</h1>
+<input type="reset" value="Limpar">
+
+
+
+<input type="submit" value="Enviar">
+
+</form>
+
+<p>Obrigado!</p>
